@@ -1,0 +1,90 @@
+@import url('izitoast/dist/css/iziToast.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  color: #2e2f42;
+}
+
+.form > label > input {
+  height: 40px;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #000;
+}
+
+input:active {
+  border: 1px solid #4e75ff;
+}
+
+fieldset {
+  padding: 14px 28px 0;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 16px 0 0 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+fieldset:hover,
+fieldset:active,
+fieldset:focus {
+  border: 1px solid #000;
+}
+
+legend {
+  color: #2e2f42;
+}
+
+.form > button {
+  margin-top: 24px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.form > button:hover {
+  background: #6c8cff;
+}
